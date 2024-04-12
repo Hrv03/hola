@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+}
+
+.parallax1 {
+
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/darth-vader-rogue-one-a-star-wars-story.jpg");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.espacionegro {
+	background-color:black;
+	min-height: 500px;
+	width: auto;
+	color: white;
+	text-align: center;
+	font-size: 200px;
+}
+.parallax2 {
+   
+    background-image: url("https://www.denofgeek.com/wp-content/uploads/2023/06/star-wars-the-mandalorian-luke-skywalker.jpg?fit=2947%2C1610");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display:flex;
+    justify-content: center;
+}   
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 9%;
+    flex: justify-content;
+    align-items: center;
+    align-self: center;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
